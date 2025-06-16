@@ -4,7 +4,18 @@ html {
     scroll-behavior: smooth;
     background-image: none;
     font-family: 'Secession','WanderOverYonder','pixelfont','Mercutio';
+    overflow: scroll;
+    overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+width: 0px;  /* remove scrollbar space */
+background: transparent;  /* optional: just make scrollbar invisible */
+  }
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+background: #FF0000;
+ }
 
 body {
     color: #313131;
