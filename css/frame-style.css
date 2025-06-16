@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    margin: 0 0;
+    scroll-behavior: smooth;
+    background-image: none;
+    font-family: 'Secession','WanderOverYonder','pixelfont','Mercutio';
+}
+
+body {
+    color: #313131;
+    width: fit-content;
+}
+
+.img-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.img-list a {
+    width: 95vw;
+    height: 95vh;
+}
+
+a:link img {
+    border: none
+}
+
+a:visited img {
+    border: none
+}
+
+a:hover img {
+    position: relative;
+    right: 1px;
+    top: 1px;
+    border: none
+}
+
+a:active img {
+    border: none
+}
+
+.img-block {
+    width: 200px;
+    height: 150px;
+}
