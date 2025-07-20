@@ -10,6 +10,10 @@ html {
     font-family: 'Secession','WanderOverYonder','pixelfont','Mercutio';
 }
 
+/* * {
+    border: 1px red solid;
+} */
+
 body {
     color: #313131;
     width: 1920px;
@@ -50,6 +54,10 @@ button {
     border: none;
     background-color: unset;
     transition: 0.7s ease-in-out;
+}
+
+button:hover {
+    cursor: url(../img/arrow2747pointer.png),default;
 }
 
 /* Preloading CSS Background Images */
@@ -130,7 +138,7 @@ body::before {
 .whole-menu {
     display: flex;
     align-items: center;
-    margin: 100px 250px 100px 280px;
+    margin: 30px 250px 50px 280px;
     width: 100%;
     height: 100%;
     min-height: 900px;
@@ -260,6 +268,15 @@ body::before {
     position: absolute;
 }
 
+.shrooms_shell {
+    width: 20px;
+    height: 20px;
+    padding: 70px 140px;
+    position: relative;
+    left: -8%;
+    top: -35%;
+}
+
 .shrooms__button--active {
     background-image: url(../img/shrooms-active.gif);
 }
@@ -271,6 +288,24 @@ body::before {
     left: -1%;
     top: 51%;
     position: absolute;
+}
+
+.flower__button:hover {
+    cursor: url(../img/arrow2747pointer.png),default;
+}
+
+.flower_shell {
+    width: 20px;
+    height: 20px;
+    padding: 60px;
+    position: relative;
+    left: -80%;
+    top: -26%;
+    z-index: 5;
+}
+
+.beetle__button:hover {
+    cursor: url(../img/arrow2747pointer.png),default;    
 }
 
 .flower__button--active {
@@ -326,6 +361,14 @@ body::before {
     right: -1.3%;
     position: absolute;
     z-index: 2;
+}
+
+.butterfly__shell {
+    width: 20px;
+    height: 20px;
+    padding: 60px;
+    position: relative;
+    left: -140%; 
 }
 
 .butterfly__button--active {
@@ -405,6 +448,15 @@ body::before {
     bottom: 0.7%;
     right: 1.3%;
     position: absolute;
+}
+
+.quotes__shell {
+    width: 20px;
+    height: 20px;
+    padding: 60px;
+    position: relative;    
+    left: -55%;
+    top: -45%;
 }
 
 .quotes__button--active {

@@ -1,8 +1,29 @@
-@media (max-width: 1800px) {
+@media (max-width: 1920px) {
+    .whole-menu {
+        transform: scale(0.95);
+        transform-origin: 0 0;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1600px) {
+    .whole-menu {
+        transform: scale(0.8);
+        transform-origin: 0 0;
+    }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 1440px) {
+    .whole-menu {
+        transform: scale(0.7);
+        transform-origin: 0 0;
+    }
 }
+
+@media (max-width: 1280px) {
+    .whole-menu {
+        transform: scale(0.6);
+        transform-origin: 0 0;
+    }
+}
+
+@media (max-width: 375px) {}
